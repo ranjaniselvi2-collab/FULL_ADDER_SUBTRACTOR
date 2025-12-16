@@ -48,7 +48,7 @@ Write the detailed procedure here
 ### Developed by: Ranjani.S
 
 ### RegisterNumber: 25017557
-
+```
 -------------------------------------
 Full Adder
 -------------------------------------
@@ -78,6 +78,7 @@ module full_subtractor (
     assign borrow = (~a & b) | (~(a ^ b) & bin);  // Borrow logic
 
 endmodule
+```
 **RTL Schematic**
 <img width="1907" height="935" alt="Screenshot 2025-11-23 232939" src="https://github.com/user-attachments/assets/52bb2af8-b292-4a70-8551-67f2e424ce57" />
 <img width="1907" height="970" alt="Screenshot 2025-11-23 234306" src="https://github.com/user-attachments/assets/68a09153-db16-422b-a5fa-aeb29e08377c" />
